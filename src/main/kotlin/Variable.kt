@@ -12,6 +12,13 @@ fun variableKotlin() {
 //    key = "new string key" //this will be error
     var num = 10
     num = 15
+
+//    nulable variable
+    var nullableVar: String? = null
+    nullableVar = "Nullable"
+    println(nullableVar)
+//    cause of nullable when call the variable must use ?
+    println(nullableVar?.length)
     println(key)
     println(num)
     println(VERSION)
